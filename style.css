@@ -1,0 +1,40 @@
+html{
+  font-family: 'Space Grotesk' , sans-serif;
+}
+.quadrado {
+  height: 300px;
+  width:300px;
+  background: white;
+  position: absolute;
+  top: 230px;
+  left: 43px;
+  right: 80px;
+  border-radius:50px 50px 50px 50px;
+}
+body{
+  background-color: lightgray;
+}
+ 
+.quadrado h2 {
+  position: absolute;
+  left: 30px;
+  top: 160px;
+  font-size: 50px;
+}
+
+.quadrado p {
+  font-size: 30px;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  color: darkgray;
+}
+
+.quadrado p.pix {
+  top: 120px; /* Ajuste essa altura */
+  left: 20px;
+  margin-top: 20px; /* Espaçamento do p acima */
+}
+.quadrado p, .quadrado h2 {
+  font-family: 'Space Grotesk', sans-serif;
+}
